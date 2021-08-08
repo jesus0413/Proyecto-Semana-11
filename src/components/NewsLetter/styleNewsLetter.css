@@ -1,0 +1,88 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsContainer {
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:transparent;
+    border-radius: 20px;
+    padding: 6%;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width:80%;
+    background:whitesmoke;
+    border-radius:8px;
+    padding:30px 30px;max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    justify-content: flex-end;
+  }
+  .formulario:hover {
+    box-shadow:0 0 40px -10px #000;
+  }
+
+
+h2 {
+    margin:10px;
+    padding-bottom:30px;
+    width:470px;
+    color: black;
+    display:inline-block;
+    font-size: 25px;
+  
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+input:focus{
+    border-bottom:2px solid #78788c
+}
+
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    border:2px solid #78788c;
+    background:0;color:#4e4e80;
+    cursor:pointer;
+    transition:all .3s
+}
+button:hover{
+    background:#78788c;
+    color:#fff
+}
+
+.send{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+}
+
+@media (max-width: 600px) {
+    .registerContainer{
+        width: 80%;
+    }
+}
+
+.boton-enviar{
+   display: flex;
+   margin-top: 50px;
+
+}

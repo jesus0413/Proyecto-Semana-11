@@ -1,0 +1,44 @@
+@media (max-width: 800px){
+    .footer{
+        flex-direction: column;
+        height: 450px;
+        padding: 10%;
+        width: 100%;
+    }}
+footer{
+    background-color: #aaa9ac;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.suscribe{
+    color: white;
+    font-size: 80%;
+    font-weight: 700; 
+
+
+}
+.suscribe span{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+
+.social{
+    color: white;
+    font-size: 80%;
+    font-weight: 700;
+
+
+}
+.social img {
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}

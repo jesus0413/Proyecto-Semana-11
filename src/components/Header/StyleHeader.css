@@ -1,0 +1,54 @@
+header{
+    width: 100%;
+    background-color: #0f418b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    position: fixed;
+   
+}
+
+
+header div{
+    margin-left: 10px;
+}
+
+.Header-logo img{
+    height: 40px;
+   width: 40px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.Header-register{
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-register button{
+    padding: 2px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    margin: 8px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.Header-register div :hover{
+    background-color: #0f418b;
+    box-shadow: 2px 2px 5px rgb(24, 235, 206);
+    border: 1px solid white ;
+    transform: scale(1.14);
+}

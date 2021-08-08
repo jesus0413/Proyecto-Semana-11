@@ -1,0 +1,29 @@
+.results-grid-container {
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+}
+
+.results-grid-container .container-grid {
+    background-color: #2b48cc;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.results-grid-container :hover {
+    box-shadow: 4px 2px 30px -5px (white);
+    transform: scale(1.03);
+  }
+
+.container-grid h5 {
+    color: black;
+    margin: 5px 0 2px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
